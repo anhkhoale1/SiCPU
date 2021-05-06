@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html fr="fr">
+
+<head title="Simulation CPU">
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="cpu1.js"></script>
+</head>
+<body onload="start()">
+    <div id="global">
+        <div id="div__prog">
+            <h2>Programme</h2>        
+            <p id="prog"></p>        
+        </div>
+        
+        <div id="div__mem">
+            <h2>Mémoire</h2>        
+            <p id="ram"></p>
+        </div>
+        
+        <div id="div__mod">
+            <h2>Commandes</h2>
+            <input type="button" id="step" value="Step" onclick="next()" style="font-size: 2vw" /><br/><br/>
+            <input type="button" id="reset" value="Reset" onclick="reset()" style="font-size: 2vw" /><br/>
+        </div>
+    </div>
+    <div>
+        <table id="indication">
+            <th colspan="2">Indication</th>
+            <tr>
+                <td>=> : </td>
+                <td>indique où on est </td>
+            </tr>
+            <tr>
+                <td id="BurlyWood"></td>
+                <td>: on sera ici à l'instruction suivante</td>
+            </tr>
+            <tr>
+                <td id="CadetBlue"></td>
+                <td>: valeur de cette adresse vient de changer</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+#global {
+  display: flex;
+  flex-direction: row;
+}
+
+#div__prog {
+  background-color: blanchedalmond;
+  width: 35%;
+  padding: 2%;
+}
+
+#prog {
+  padding: 2%;
+  background-color: blanchedalmond;
+}
+
+#div__mem {
+
+  background-color: aquamarine;
+  width: 35%;
+  padding: 2%;
+}
+
+#ram {
+  padding: 2%;
+}
+
+#div__mod {
+  background-color: aliceblue;
+  width: 35%;
+  padding: 2%;
+}
+
+#memoire {
+  padding: 2%;
+  background-color: aquamarine;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+#step, #reset {
+  margin-left: 5%;
+  padding: auto;
+  position: relative;
+  width: 30%;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+#step:hover,#reset:hover {
+  box-shadow: 5px 5px #888888;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#CadetBlue {
+  background-color: CadetBlue;
+}
+
+#BurlyWood {
+  background-color: BurlyWood;
+}
+
+th {
+  font-size: 20px;
+}
+
+#indication {
+  border: hidden;
+  margin: 1em;
+  border-collapse: separate;
+}
+
